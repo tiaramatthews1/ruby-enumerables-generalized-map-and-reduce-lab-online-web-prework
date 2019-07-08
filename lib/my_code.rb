@@ -7,3 +7,6 @@ new.push(yield ( array[i]) )
 end
  new_array
 end
+
+def map(array)
+  
