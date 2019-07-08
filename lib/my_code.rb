@@ -18,4 +18,4 @@ def reduce(array, start = nil)
     sum = array[0]
     i = 1 
   end 
-  while i < array 
+  while i < array.length 
