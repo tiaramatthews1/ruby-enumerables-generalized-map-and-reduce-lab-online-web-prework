@@ -10,4 +10,5 @@ end
 
 def map(array)
   
-def reduce
+def reduce(array, start = nil)
+  
