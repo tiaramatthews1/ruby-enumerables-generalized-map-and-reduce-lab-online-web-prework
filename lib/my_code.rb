@@ -11,4 +11,5 @@ end
 def map(array)
   
 def reduce(array, start = nil)
-  
+  if start
+    
