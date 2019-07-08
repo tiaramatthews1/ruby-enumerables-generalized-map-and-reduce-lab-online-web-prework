@@ -19,6 +19,8 @@ def reduce(array, start = nil)
     i = 1 
   end 
   while i < array.length 
-  sum = yield (sum, arrat [i])
-  i += log10
-  
+  sum = yield (sum, array [i])
+  i += 1 
+end 
+sum 
+end 
