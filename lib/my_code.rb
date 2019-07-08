@@ -2,7 +2,7 @@ def map(array)
   new = []
   i = 0
   while i < array.length do
-    new.push(yield ( array[i]) ) 
+    new.push(yield(array[i])) 
     i += 1
   end
  new
@@ -17,7 +17,7 @@ def reduce(array, start = nil)
     i = 1 
   end 
   while i < array.length 
-   sum = yield (sum, array[i])
+   sum = yield(sum, array[i])
    i += 1 
   end 
   sum 
