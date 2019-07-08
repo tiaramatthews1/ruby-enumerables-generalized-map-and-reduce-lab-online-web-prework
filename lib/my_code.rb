@@ -5,6 +5,5 @@ while i < array.length do
 new_array.push yield element
 i += 1
 end
-
 new_array
 end
