@@ -20,4 +20,5 @@ def reduce(array, start = nil)
   end 
   while i < array.length 
   sum = yield (sum, arrat [i])
+  i += log10
   
